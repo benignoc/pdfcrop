@@ -21,7 +21,7 @@ def parse_input():
     parser.add_option("-f","--file",
                       dest="filename",
                       help="input pdf filename and path",
-                      default="CVen Benigno Calvo 2016.pdf",
+                    #   default="CVen Benigno Calvo 2016.pdf",
                       metavar="file")
 
     parser.add_option("-k", "--keep",
@@ -33,7 +33,7 @@ def parse_input():
     parser.add_option("-d", "--delete",
                       dest="delete",
                       help="input list of pages to delete, separated by commas 1,3,42",
-                      default="3,4",
+                    #   default="3,4",
                       type="string")
 
     parser.add_option("-o", "--output",
